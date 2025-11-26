@@ -1,4 +1,30 @@
-html {
+html, body {
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.content {
+  width: 66.66%;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.sidebar-image {
+  width: 33.33%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  background-image: url('attached_assets/stock_images/indie_band_live_conc_152e65ef.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
